@@ -1,0 +1,37 @@
+:root {
+  /* Paleta formal (azul marino, gris carbón, acentos azules) */
+  --color-bg: #f5f7fa;
+  --color-surface: #ffffff;
+  --color-text: #1f2937;
+  --color-text-muted: #6b7280;
+  --color-border: #e5e7eb;
+  --color-primary: #1e3a8a; /* navy */
+  --color-primary-600: #1d4ed8; /* blue */
+  --color-primary-700: #1e40af; /* darker blue */
+  --color-success: #059669;
+  --color-danger: #dc2626;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  color: var(--color-primary-600);
+}
+
+a:hover {
+  color: var(--color-primary-700);
+}
