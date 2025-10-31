@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 // Middleware
 app.use(cors({
   origin: [
-    'http://localhost:3000', // URL del frontend React local
+    'https://test-inventory-app.netlify.app/login', // URL del frontend React local
     /^https:\/\/.*\.ngrok\.io$/, // Permitir todas las URLs de ngrok
     /^https:\/\/.*\.ngrok-free\.app$/ // Permitir URLs de ngrok gratuitas
   ],
