@@ -1,7 +1,7 @@
 // Configuración de la API
 const API_CONFIG = {
   // URL base de la API - se puede cambiar según el entorno
-  BASE_URL: process.env.REACT_APP_API_URL || 'http://localhost:5000',
+  BASE_URL: process.env.REACT_APP_API_URL || 'https://test-inventory-app.netlify.app/',
   
   // Endpoints
   ENDPOINTS: {
